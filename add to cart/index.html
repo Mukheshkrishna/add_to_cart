@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add to Cart Project</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Product Page</h1>
+
+  <div class="product">
+    <img src="https://cdn.shopify.com/s/files/1/0266/1371/0884/products/61D44N16zDL._SX679.jpg?v=1657287109" alt="Product Image" width="200" height="200">
+    <h2>Smart Watch</h2>
+    <p>It has the prowess of a Garmin watch with the glamor of a Wear OS device, ensuring you get the best of both worlds with the Samsung Galaxy Watch 5 Pro. It's 80 hour battery life is better than many other Wear OS watches, and most smartwatches, period.</p>
+    <p>$19.99</p>
+    <button class="add-to-cart-btn" onclick="addToCart()">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <img src="https://img.tatacliq.com/images/i10/658Wx734H/MP000000010827508_658Wx734H_202303172336061.jpeg" alt="Product Image" width="200" height="200">
+    <h2>Iphone Watch</h2>
+    <p>It has the prowess of a Garmin watch with the glamor of a Wear IOS device, ensuring you get the best of both worlds with the Iphone Watch 7 series. It's 80 hour battery life is better than many other Wear IOS watches, and most smartwatches, period.</p>
+    <p>$29.99</p>
+    <button class="add-to-cart-btn" onclick="addToCart()">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <img src="https://sc04.alicdn.com/kf/H34ffe6db16ae4d4f827efa37e8538dd2L.jpg" alt="Product Image" width="200" height="200">
+    <h2>Running Shoe</h2>
+    <p> Nike. Nike is an American multinational corporation that designs, develops, manufactures, and markets footwear, clothes, equipment, and accessories in the whole world.</p>
+    <p>$9.99</p>
+    <button class="add-to-cart-btn" onclick="addToCart()">Add to Cart</button>
+  </div>
+
+  <div id="cart">
+    <h2>Cart</h2>
+    <ul id="cart-items"></ul>
+    <p id="cart-total">Total: $0</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
